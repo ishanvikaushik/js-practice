@@ -1,0 +1,15 @@
+#arrays
+var arr=["hi","llo"]
+arr.length;
+arr.includes(item); # returns true or false
+arr.push(value); # pushes value at end of array
+var val=arr.pop(); # takes value at the end of array
+
+#concepts
+prompt("your name:") # pop up for input
+alert("welcome") #pop up a message
+Math.floor(value) #truncates value
+Math.round(value) # rounds off value
+Math.random(); # range 0-0.9 to 16 decinmals of 9
+Math.pow(base,exp);
+string.slice(starting index, upto but not including ending index);
