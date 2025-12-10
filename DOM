@@ -1,0 +1,13 @@
+	
+The Document Object Model (DOM)
+DOM is a tree structure of each element of html code as object
+
+every object in it has properties(datatypes) and methods which help manipulate each object
+var heading=document.firstElementChild.lastElementChild.firstElementChild;
+heading.innerHTML="hello"; #changes text of a tag/object
+heading.style.color="red"; #changes color of tag
+document.querySelector("input").click(); #performs the action as its a method
+
+#1 challenge- change text of third list ele
+var item=document.firstElementChild.lastElementChild.querySelector("ul").lastElementChild
+item.innerHTML="Ishi"
